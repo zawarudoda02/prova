@@ -1,0 +1,63 @@
+= Guida breve a GIT :)
+
+== per capi mejo GIT
+
+
+== COMANDI
+
+per settare il prompt : 
+-----
+export PS1="\w$"
+-----
+
+=== SETTARE NOME E EMAIL +
+    git config --global user.name "nome"
+    git config --global user.email blabla@bla.it
+
+=== SETTARE PROXY
+
+-----
+git config --global http.proxy=http://10.1.1.254:3128
+git config --global https.proxy=http://10.1.1.254:3128
+-----
+
+=== Va clonato da una repository
+----- 
+git clone https://github.com/softwareIISGubbio/formaggio.git
+-----
+=== Stato della repository e modifica
+
+-----
+git status
+-----
+
+Per modificare un file 
+-----
+git add README.md
+-----
+
+Per salvare le modifiche NELLA REPOS LOCALE
+-----
+git commit -m "commento qui"
+-----
+ATTENZIONE: METTERE SEMPRE IL COMMENTO + 
+altrimenti si muore :(
+
+
+Per caricarli nella repository online
+-----
+git push
+-----
+
+Per recuperare dal server
+-----
+git fetch
+-----
+per scaricare modifiche 
+-----
+git pull
+-----
+per confrontare
+-----
+git diff
+-----
