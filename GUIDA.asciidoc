@@ -17,8 +17,8 @@ export PS1="\w$"
 === SETTARE PROXY
 
 -----
-git config --global http.proxy=http://10.1.1.254:3128
-git config --global https.proxy=http://10.1.1.254:3128
+git config --global http.proxy http://10.1.1.254:3128
+git config --global https.proxy http://10.1.1.254:3128
 -----
 
 === Va clonato da una repository
